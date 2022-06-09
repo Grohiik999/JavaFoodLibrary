@@ -1,0 +1,101 @@
+body{
+    background-color: #f3f2f2 ;
+}
+
+.header ul li{
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px ; 
+}
+
+
+li a:hover{
+    padding: 10px 25px ;
+    background: orangered;
+    border-radius: 15px;
+    color:white;
+}
+
+li a.suges{
+    padding: 10px 25px ;
+    background: orangered;
+    border-radius: 15px;
+    color:white;
+}
+
+.header ul{
+    text-align: right;
+    margin: 30px  0px 80px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+}
+
+.suggestion{
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 17px 10px;
+    background-color: #FF9C54;
+    border-radius: 26px;
+    box-shadow: 0px 12px 25px 6px rgba(0, 0, 0, 0.25);;
+    margin: 0px 520px 10px 520px;
+}
+
+.kolom label{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Kritik , .Saran{
+    border-radius: 19px;
+}
+
+textarea::placeholder{
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.kolom h3{
+    font-family: 'Poppins';
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    margin-left: 210px;
+    margin-bottom: 20px;
+    color: rgba(180, 77, 3, 1);
+}
+
+.buttonk{
+    color: white;
+    padding: 10px 30px;
+    background-color: #FF9C54;
+    border-radius: 20px;
+    border-color: transparent;
+    position: absolute;
+    top: 440px;
+    right: 230px;
+}
+.buttons{
+    color: white;
+    padding: 10px 30px;
+    background-color: #FF9C54;
+    border-radius: 20px;
+    border-color: transparent;
+    position: absolute;
+    top: 710px;
+    right: 230px;
+    
+}
